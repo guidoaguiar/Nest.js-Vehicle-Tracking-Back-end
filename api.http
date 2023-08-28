@@ -1,0 +1,30 @@
+@url = http://localhost:3000
+
+###
+GET {{url}}/
+
+###
+GET {{url}}/routes
+
+###
+GET {{url}}/routes/64ed14ada2f949e4790dc1d3
+
+###
+POST {{url}}/routes
+Content-Type: application/json
+
+{
+    "name": "route test 2",
+    "source_id": "ChIJd4sAj2wImQAR7CwBPldY9b0",
+    "destination_id": "EkJSdWEgZG8gSW1wZXJhZG9yLCA1MSAtIENlbnRybywgUGV0csOzcG9saXMgLSBSSiwgMjU2MTAtMDgxLCBCcmFzaWwiMBIuChQKEgl_UWAY_qeZABEKi0kfDrzL0RAzKhQKEgnbGDCsAKiZABEXEUSaLpcJ-Q"
+}
+
+### Map Stuff
+
+### Get place_id
+GET {{url}}/places?text=av avenida imperador 51 petropolis rj
+
+
+### get directions between two places
+GET {{url}}/directions
+?originId=ChIJd4sAj2wImQAR7CwBPldY9b0&destinationId=EkJSdWEgZG8gSW1wZXJhZG9yLCA1MSAtIENlbnRybywgUGV0csOzcG9saXMgLSBSSiwgMjU2MTAtMDgxLCBCcmFzaWwiMBIuChQKEgl_UWAY_qeZABEKi0kfDrzL0RAzKhQKEgnbGDCsAKiZABEXEUSaLpcJ-Q
