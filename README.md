@@ -17,11 +17,13 @@ Project to track vehicles in real time.
 For this project I'll not use a live car, but will generate the lat and lng to be sent to the server simulating a live car riding on the street.
 
 ### Tech used (or to be used)
-- [Nest.js](https://github.com/nestjs/nest)
-- [Next.js]()
-- [Kafka]()
-- [Golang]()
-- [Docker]()
+- [Node.js](https://nodejs.org/)
+- [Nest.js](https://nestjs.com/)
+- [Next.js](https://nextjs.org/)
+- [Kafka](https://kafka.apache.org/)
+- [Golang](https://golang.org/)
+- [Docker](https://www.docker.com/)
+- [Google Maps APIs](https://developers.google.com/maps)
 
 ## Installation
 
