@@ -24,6 +24,8 @@ For this project I'll not use a live car, but will generate the lat and lng to b
 - [Golang](https://golang.org/)
 - [Docker](https://www.docker.com/)
 - [Google Maps APIs](https://developers.google.com/maps)
+- [MongoDB](https://www.mongodb.com/)
+- [Prisma](https://www.prisma.io/)
 
 ## Installation
 
@@ -62,6 +64,22 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Test API endpoints
+
+Use Rest Client extension for VSCode to test the API endpoints.
+
+```bash
+# start the server
+npm run start:dev
+
+
+# open the file
+.api.http
+# and click on "Send Request" button to test the endpoints
+``` 
+
+
 
 ## Support
 
